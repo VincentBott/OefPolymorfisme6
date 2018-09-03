@@ -24,7 +24,7 @@ public class BankRekening  {
         saldo = saldo + bedrag;
     }
 
-    public void afhalen(int bedrag) throws BankRekeningException {
+    public void afhalen(int bedrag) throws BankRekeningException  {
         saldo = saldo - bedrag;
     }
 }
