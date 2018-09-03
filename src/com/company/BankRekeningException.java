@@ -7,6 +7,13 @@ public class BankRekeningException extends Exception {
     {
         super(melding);
     }
+
+
+    // Hieronder is van de Jef.
+
+    public BankRekeningException(String melding, Throwable cause) {
+        super(melding, cause);
+    }
 }
 
 
