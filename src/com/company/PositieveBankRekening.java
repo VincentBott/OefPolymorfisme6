@@ -20,5 +20,14 @@ public class PositieveBankRekening extends BankRekening {
 
     }
 
+
+    @Override
+    public void storten(int bedrag) throws BankRekeningException {
+
+        if (getSaldo() + bedrag < 0) throw new BankRekeningException("Saldo mag niet negatief worden.");
+
+        super.storten(bedrag);
+    }
+
 }
 

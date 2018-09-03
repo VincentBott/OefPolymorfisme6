@@ -20,7 +20,7 @@ public class BankRekening  {
         return this.saldo;
     }
 
-    public void storten(int bedrag) {
+    public void storten(int bedrag) throws BankRekeningException {
         saldo = saldo + bedrag;
     }
 
