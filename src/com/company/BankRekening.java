@@ -3,7 +3,7 @@ package com.company;
 public class BankRekening  {
 
     private String rekeningnummer;
-    protected int saldo;
+    private int saldo;
 
 
     public BankRekening(String rekeningnummer) {
